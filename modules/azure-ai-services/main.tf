@@ -9,17 +9,17 @@ resource "azurerm_cognitive_account" "ai_services" {
   identity {
     type = "SystemAssigned"
   }
-  network_acls {
-    default_action = "Deny"
-    ip_rules       = []
-    virtual_network_rules {
-      subnet_id = var.subnet_app_id
-    }
-    virtual_network_rules {
-      subnet_id = var.subnet_st_id
-    }
-    virtual_network_rules {
-      subnet_id = var.subnet_stwa_id
-    }
-  }
+  # network_acls {
+  #   default_action = "Deny"
+  #   ip_rules       = []
+  #   virtual_network_rules {
+  #     subnet_id = var.subnet_app_id
+  #   }
+  #   virtual_network_rules {
+  #     subnet_id = var.subnet_st_id
+  #   }
+  #   virtual_network_rules {
+  #     subnet_id = var.subnet_stwa_id
+  #   }
+  # }
 }

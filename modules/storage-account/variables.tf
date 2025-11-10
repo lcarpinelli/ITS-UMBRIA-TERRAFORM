@@ -55,17 +55,17 @@ variable "location" {
     type        = string
 }
 
-variable "subnet_ai_id" {
-    description = "The ID of the subnet associated with the Azure AI Services resource."
-    type        = string
-}
+# variable "subnet_ai_id" {
+#     description = "The ID of the subnet associated with the Azure AI Services resource."
+#     type        = string
+# }
 
-variable "subnet_app_id" {
-    description = "The ID of the subnet associated with the App Service resource."
-    type        = string
-}
+# variable "subnet_app_id" {
+#     description = "The ID of the subnet associated with the App Service resource."
+#     type        = string
+# }
 
-variable "subnet_stwa_id" {
-    description = "The ID of the subnet associated with the Static Web App resource."
-    type        = string
-}
+# variable "subnet_stwa_id" {
+#     description = "The ID of the subnet associated with the Static Web App resource."
+#     type        = string
+# }

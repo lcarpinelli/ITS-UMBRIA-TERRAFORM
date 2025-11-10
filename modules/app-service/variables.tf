@@ -63,17 +63,17 @@ variable "azure_ai_services_key" {
     sensitive = true
 }
 
-variable "subnet_ai_id" {
-    description = "The ID of the subnet associated with the Azure AI Services resource."
-    type        = string
-}
+# variable "subnet_ai_id" {
+#     description = "The ID of the subnet associated with the Azure AI Services resource."
+#     type        = string
+# }
 
-variable "subnet_st_id" {
-    description = "The ID of the subnet associated with the Storage resource."
-    type        = string
-}
+# variable "subnet_st_id" {
+#     description = "The ID of the subnet associated with the Storage resource."
+#     type        = string
+# }
 
-variable "subnet_stwa_id" {
-    description = "The ID of the subnet associated with the Static Web App resource."
-    type        = string
-}
+# variable "subnet_stwa_id" {
+#     description = "The ID of the subnet associated with the Static Web App resource."
+#     type        = string
+# }

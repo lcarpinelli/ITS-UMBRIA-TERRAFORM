@@ -8,8 +8,8 @@ location = "italynorth"
 // Naming Convention Variables
 //------------------------------------------------------------------------------------------------------
 
-prefix      = "" //MODIFICARE
-environment = "" //MODIFICARE
-region      = "" //MODIFICARE
-instance    = "" //MODIFICARE
+prefix      = "its" //MODIFICARE
+environment = "dev" //MODIFICARE
+region      = "it" //MODIFICARE
+instance    = "001" //MODIFICARE
 environmentcomplete = "Development"

@@ -20,9 +20,9 @@ resource "azurerm_storage_account" "storage_account" {
     }
   }
 
-  network_rules {
-    default_action             = "Deny"
-    bypass                     = ["AzureServices"]
-    virtual_network_subnet_ids = [var.subnet_app_id, var.subnet_ai_id, var.subnet_stwa_id]
-  }
+  # network_rules {
+  #   default_action             = "Deny"
+  #   bypass                     = ["AzureServices"]
+  #   virtual_network_subnet_ids = [var.subnet_app_id, var.subnet_ai_id, var.subnet_stwa_id]
+  # }
 }
