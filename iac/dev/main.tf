@@ -11,7 +11,7 @@ data "azurerm_resource_group" "rg" {
 //------------------------------------------------------------------------------------------------------
 module "storage_account" {
   source              = "../../modules/storage-account"
-  resource_group_name = azurerm_resource_group.rg.name
+  resource_group_name = data.azurerm_resource_group.rg.name
   name                = local.storage_account_name
   location            = var.location
 }
